@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url("slide05.jpg") no-repeat;
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    color: red;
+    font-size: 50px;
+    user-select: none;
+    margin: 30px;
+    line-height: 80px;
+}
+.logo {
+    background-color: yellow;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.keys {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.key kbd {
+    display: block;
+    font-size: 40px;
+    color: white;
+}
+.key .sound {
+    color: yellow;
+    text-transform: uppercase;
+}
+.key {
+    width: 95px;
+    height: 55px;
+    background-color: #0E0E0E;
+    font-size: 15px;
+    text-align: center;
+    border: 3.5px solid black;
+    border-radius: 8px;
+    padding: 1rem .5rem;
+    margin: 10px;
+    transition: all .07s ease;
+}
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
